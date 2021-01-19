@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "vuepress dev . --no-cache",
-    "build": "vuepress build . --no-cache",
+    "start": "node init && vuepress dev . --no-cache",
+    "build": "node init && vuepress build . --no-cache",
     "export": "EXPORT_PDF=True && vuepress export && mv site.pdf ./public/roadmap/AI_Expert_Roadmap_2021.pdf"
   },
-  "author": "Jürgen Stumpp",
+  "author": "J\u00fcrgen Stumpp",
   "devDependencies": {
     "vuepress": "^1.6.0",
     "@snowdog/vuepress-plugin-pdf-export": "^1.1.0"
